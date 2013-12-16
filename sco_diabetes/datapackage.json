@@ -21,34 +21,42 @@
   "contributors": [{
     "name": "Scott Cunningham, Ritchie McAlpine, Erwin Oosterhoorn, Colin Fischbacher, Andrew Gasiorowski, John McKnight, ... (see acknowledgements in PDF reports)",
   }],
-  "resources": [
+"resources": [
     {
       "path": "sds2012.csv",
       "url": "https://github.com/andyjudson/opendata/tree/master/sco_diabetes/sds2012.csv",
       "schema": {
         "fields": [{
           "name": "hb_code",
+          "description":"Health Board Identifier",
           "type": "string"
         },{
           "name": "ind_no",
+          "description":"Index number of measure being described.",
           "type": "integer"
         },{
           "name": "ind_name",
+          "description":"Index name of measure being described.",
           "type": "string"
         },{
           "name": "year",
+          "description":"Year of data reported",
           "type": "integer"
         },{
           "name": "number",
+          "description":"Number of patients attributed to measure",
           "type": "integer"
         },{
           "name": "measure",
+          "description":"Percentage of patients attributed to measure",
           "type": "number"
         },{
           "name": "lci",
+          "description":"Lower confidence interval of measure",
           "type": "number"
         },{
           "name": "uci",
+          "description":"Upper confidence interval of measure",
           "type": "number"
         }]
       }
