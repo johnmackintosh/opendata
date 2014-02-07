@@ -23,8 +23,10 @@
   }],
   "resources": [
     {
-      "path": "sds2012.csv",
+      "name": "sds2012",
       "url": "https://github.com/andyjudson/opendata/tree/master/sco_diabetes/sds2012.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
       "schema": {
         "fields": [{
           "name": "hb_code",
@@ -59,6 +61,55 @@
           "description":"Upper confidence interval of measure",
           "type": "number"
         }]
+      }
+    },{
+      "name": "sds_prevalence",
+      "url": "https://raw.github.com/andyjudson/opendata/master/scogov_diabetes/sds_prevalence.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "id": "code",
+            "description": "Health Board Identifier",
+            "type": "string"
+          },
+          {
+            "id": "year",
+            "description": "Year of data reported",
+            "type": "integer"
+          },
+          {
+            "id": "t1dm",
+            "description": "Number of patients with type 1 diabetes",
+            "type": "integer"
+          },
+          {
+            "id": "t2dm",
+            "description": "Number of patients with type 2 diabetes",
+            "type": "integer"
+          },
+          {
+            "id": "other",
+            "description": "Number of patients with other diabetes",
+            "type": "integer"
+          },
+          {
+            "id": "midyrpe",
+            "description": "Mid Year Population Estimate",
+            "type": "integer"
+          },
+          {
+            "id": "prevalence_n",
+            "description": "Prevalence (as a number)",
+            "type": "integer"
+          },
+          {
+            "id": "prevalence_p",
+            "description": "Prevalence (as a percentage)",
+            "type": "number"
+          }
+        ]
       }
     }
   ]
