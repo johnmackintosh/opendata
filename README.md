@@ -84,7 +84,7 @@ World Spatial Data Resources:
  - https://www.mapbox.com/
 
 
-### COPYRIGHT, LICENCE & ATTRIBUTION STATEMENTS:
+### COPYRIGHT, LICENCE & ATTRIBUTION STATEMENTS
 
 Unless otherwise stated, the derived works are licensed under the Creative Commons Attribution-ShareAlike 3.0 License. For more information visit: http://creativecommons.org/licenses/by-sa/3.0/
 
