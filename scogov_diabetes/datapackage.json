@@ -34,11 +34,11 @@
           "type": "string"
         },{
           "name": "ind_no",
-          "description":"Index number of measure being described.",
+          "description":"Indicator number of measure.",
           "type": "integer"
         },{
-          "name": "ind_name",
-          "description":"Index name of measure being described.",
+          "name": "ind_desc",
+          "description":"Indicator description of measure.",
           "type": "string"
         },{
           "name": "year",
