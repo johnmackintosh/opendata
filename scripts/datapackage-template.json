@@ -1,0 +1,26 @@
+// A Data Package is a coherent collection of data and possibly other assets into a single form. 
+// It provides the basis for convenient delivery, installation and management of datasets.
+//
+// http://www.dataprotocols.org/en/latest/data-packages.html
+// http://data.okfn.org/standards/data-package
+
+
+{
+  // general "metadata" like title, sources...
+  "name": "a-unique-human-readable-and-url-usable-identifier",
+  "title": "A nice title",
+  "description": "A human friendly description of the data package",
+  // list of the licenses (keys: id, url)
+  "licenses": [{  
+    }],
+  // list of the data resources (keys: url, path, name, format, mimetype, encoding, schema)
+  "resources": [{
+    }],
+  // list of the sources (keys: name, email, web)
+  "sources": [{
+    }],
+  // list of the contributors (keys: name, email, web)
+  "contributors": [{    
+    }]
+}
+

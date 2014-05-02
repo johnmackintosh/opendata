@@ -9,7 +9,7 @@ import csv
 argp = argparse.ArgumentParser(description='script to match ISO 3166 country codes')
 argp.add_argument('-i', '--ifilename', help='input filename', required=True)
 argp.add_argument('-o', '--ofilename', help='output filename', default='dump.csv')
-argp.add_argument('-r', '--rfilename', help='reference filename', default='iso_countrycode_slim.csv')
+argp.add_argument('-r', '--rfilename', help='reference filename', default='iso-countrycode-slim.csv')
 argp.add_argument('-n', '--countryname', help='country iso-name fieldname', default='country')
 argp.add_argument('-a', '--countryalpha3', help='country iso-alpha-3 fieldname', default='isoalpha3')
 args = argp.parse_args()
