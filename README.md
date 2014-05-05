@@ -1,6 +1,6 @@
 ### INTRODUCTION
 
-This is a collection of data sets that I've sourced or derived to support my data science work and experiments (e.g. Tableau, R, D3 and Hadoop). I tend to work on the analysis of healthcare datasets, but I'm generally interested in all kinds of data questions. I've derived these data sets from various sources with some level of tidying and transformation applied to enable analysis or visualisation. I'll try to maintain accuracy of the data but if you do find errors please report them via the issue tracker.
+This is a collection of data sets that I've sourced or derived to support my data science work and experiments (e.g. hacking with Tableau, R, D3 and Hadoop). I tend to work on the analysis of healthcare datasets, but I'm interested in all kinds of data questions. I've derived these data sets from various sources with some level of tidying and transformation applied to enable analysis or visualisation. I'll try to maintain accuracy of the data but if you do find errors please report them via the issue tracker.
 
 ### REPOS STRUCTURE
 
