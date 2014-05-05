@@ -1,43 +1,10 @@
 ### INTRODUCTION
 
-This is a collection of datasets that I've sourced or derived to support my data science work and learning (e.g. R, D3, Tableau and Hadoop). My focus is on the analysis of Scottish healthcare datasets, but I'm generally interested in all kinds of data questions. The datasets made available have been modified for use from the original sources, which are listed below. The data is subject to change as modifications and updates are developed and as new sources are integrated. I'll try to maintain accuracy of the data but if you do find errors please report them via the issue tracker.
+This is a collection of data sets that I've sourced or derived to support my data science work and experiments (e.g. Tableau, R, D3 and Hadoop). I tend to work on the analysis of healthcare datasets, but I'm generally interested in all kinds of data questions. I've derived these data sets from various sources with some level of tidying and transformation applied to enable analysis or visualisation. I'll try to maintain accuracy of the data but if you do find errors please report them via the issue tracker.
 
+### REPOS STRUCTURE
 
-### D3
-
-"D3.js = Data Drive Documents, is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation."
-
- - http://d3js.org/
- - http://vis.stanford.edu/papers/d3
- - http://github.com/mbostock/d3/wiki/Gallery
- - http://github.com/mbostock/d3/wiki/API-Reference
- - http://bost.ocks.org/mike/
-
-
-### TABLEAU
-
-"Tableau Public is for anyone who wants to tell stories with interactive data on the web. It's delivered as a service which allows you to be up and running overnight. With Tableau Public you can create amazing interactive visuals and publish them quickly, without the help of programmers or IT. Easy to use. Spectacularly powerful. Data In. Brilliance Out."
-
- - http://www.tableausoftware.com/products/desktop
- - http://www.tableausoftware.com/public/welcome
- - http://www.tableausoftware.com/public/faq
- - http://www.tableausoftware.com/public/community
-
-
-### R
-
-"R is an open language and environment for statistical computing and graphics. R provides a wide variety of statistical (linear and nonlinear modelling, classical statistical tests, time-series analysis, classification, clustering, ...) and graphical techniques, and is highly extensible."
-
- - http://www.r-project.org/
- - http://www.rstudio.com/
-
-
-### HADOOP
-
-"Apache Hadoop is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures."
-
- - http://hadoop.apache.org/
-
+ - todo: document what, where, when, source, how...
 
 ### CONTACT INFO
 
@@ -47,7 +14,6 @@ If you have any questions or issues then contact me...
  - email: andy{dot}judson{at}gmail{dot}com
  - blog: http://datahugger.org/
  - twitter: http://twitter.com/andyjudson
-
 
 ### ATTRIBUTION OF DATA SOURCES & USEFUL RESOURCES
 
@@ -82,7 +48,6 @@ World Spatial Data Resources:
  - http://www.openstreetmap.org/
  - http://www.geofabrik.de/
  - https://www.mapbox.com/
-
 
 ### COPYRIGHT, LICENCE & ATTRIBUTION STATEMENTS
 
