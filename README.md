@@ -59,10 +59,10 @@ United Kingdom Government Resources:
  - http://data.gov.uk/publisher/national-records-of-scotland
  - http://data.gov.uk/publisher/scottish-government-spatial-data-infrastructure
  - http://data.gov.uk/data/search?tags=health&q=nhs+scotland
- - http://opendatacommunities.org/
  - http://www.ordnancesurvey.co.uk/opendatadownload/
- - http://www.sharegeo.ac.uk/
-
+ - http://opendatacommunities.org/
+ - https://geoportal.statistics.gov.uk/geoportal/catalog/content/filelist.page
+ 
 Scottish Goverment & NHS Scotland Resources:
  - http://www.scotland.gov.uk/
  - http://www.scotpho.org.uk/
