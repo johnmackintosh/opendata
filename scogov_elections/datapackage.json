@@ -1,11 +1,3 @@
-## 
-
-data sources:
-  - votes = 
-  - myrpe = 
-  - map (local authorities) = https://geoportal.statistics.gov.uk/Docs/Boundaries/Local_authority_district_(GB)_Dec_2012_Boundaries_(Full_Extent).zip
-  - twitter = https://twitter.com/search?q=%23indyref&src=tyah
-
 {
   "name": "indyref",
   "title": "Scottish Independence Referendum Vote Results 2014",
@@ -27,8 +19,8 @@ data sources:
     "web": "http://www.datahugger.org"
   }],
   "resources": [{
-      "name": "vote results",
-      "url": "https://github.com/andyjudson/opendata/tree/master/scogov-indyref/voteresults.json",
+      "name": "indyref 2014 election results",
+      "url": "https://github.com/andyjudson/opendata/tree/master/scogov-elections/indyref2014.json",
       "format": "json",
   },{
       "name": "local authority districts map",
