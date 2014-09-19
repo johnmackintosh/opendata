@@ -12,6 +12,9 @@
   },{
     "name": "Scotland Mid Year Population Estimates",
     "web": "http://www.gro-scotland.gov.uk/statistics/theme/population/estimates/mid-year/mid-2013/index.html"
+  },{
+    "name": "Local Authority Districts Boundaries",
+    "web": "https://geoportal.statistics.gov.uk/Docs/Boundaries/Local_authority_district_(GB)_2013_Boundaries_(Full_Extent).zip"
   }],
   "maintainers": [{
     "name": "Andy Judson",
