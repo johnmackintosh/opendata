@@ -1,12 +1,12 @@
-### INTRODUCTION
+### Introduction
 
 This is a collection of data sets that I've sourced or derived to support my data science work and experiments (e.g. hacking with Tableau, R, D3 and Hadoop). I tend to work on the analysis of healthcare datasets, but I'm interested in all kinds of data questions. I've derived these data sets from various sources with some level of tidying and transformation applied to enable analysis or visualisation. I'll try to maintain accuracy of the data but if you do find errors please report them via the issue tracker.
 
-### REPOS STRUCTURE
+### Metadata
 
  - todo: document what, where, when, source, how...
 
-### CONTACT INFO
+### Contact Details
 
 If you have any questions or issues then contact me...
 
@@ -15,7 +15,7 @@ If you have any questions or issues then contact me...
  - blog: http://datahugger.org/
  - twitter: http://twitter.com/andyjudson
 
-### ATTRIBUTION OF DATA SOURCES & USEFUL RESOURCES
+### Data Repositories
 
 United Kingdom Government Resources:
  - http://data.gov.uk/data
@@ -49,16 +49,16 @@ World Spatial Data Resources:
  - http://www.geofabrik.de/
  - https://www.mapbox.com/
 
-### COPYRIGHT, LICENCE & ATTRIBUTION STATEMENTS
+### Copyright & Attribution Statements
 
 Unless otherwise stated, the derived works are licensed under the Creative Commons Attribution-ShareAlike 3.0 License. For more information visit: http://creativecommons.org/licenses/by-sa/3.0/
 
 However, because this repository contains datasets derived from various sources which are using different licensing models, any uses of the data should include the appropriate attribution statements as described below.
 
-The aggregate datasets from the UK and Scottish Government are licensed under the Open Government Licence v2.0. The data is free to use and should include an attribution statement (as below).
+The anonymised or aggregated data from the UK and Scottish Government are licensed under the Open Government Licence v2.0. The data is free to use and should include an attribution statement (as below).
 
-'Contains Public Sector information licensed under the Open Government Licence v2.0. For more information visit: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/'
+> 'Contains Public Sector information licensed under the Open Government Licence v2.0. For more information visit: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/'
 
-The spatial datasets from the UK and Scottish Government are licensed under the Ordance Survey Open Data Licence v1.5 which incorporates the Open Government Licence v2.0. The data is free to use and should include an attribution statement (as below).
+The geographical data from the UK and Scottish Government are licensed under the Ordance Survey Open Data Licence v1.5 which incorporates the Open Government Licence v2.0. The data is free to use and should include an attribution statement (as below).
 
-'Contains Ordnance Survey data (crown copyright and database right 2013). For more information visit: http://www.ordnancesurvey.co.uk/business-and-government/licensing/using-creating-data-with-os-products/os-opendata.html'
+> 'Contains Ordnance Survey data (crown copyright and database right 2013). For more information visit: http://www.ordnancesurvey.co.uk/business-and-government/licensing/using-creating-data-with-os-products/os-opendata.html'
