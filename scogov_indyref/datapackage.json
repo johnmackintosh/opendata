@@ -1,0 +1,41 @@
+## 
+
+data sources:
+  - votes = 
+  - myrpe = 
+  - map (local authorities) = https://geoportal.statistics.gov.uk/Docs/Boundaries/Local_authority_district_(GB)_Dec_2012_Boundaries_(Full_Extent).zip
+  - twitter = https://twitter.com/search?q=%23indyref&src=tyah
+
+{
+  "name": "indyref",
+  "title": "Scottish Independence Referendum Vote Results 2014",
+  "description": "Dataset of voting results for the Scottish Independence Referendum (18/09/2014). Includes results broken down by local authority districts (codes & name), yes / no, and the time reported.",
+  "licenses": [{
+    "id": "CC-BY-SA-4.0",
+    "url": "http://creativecommons.org/licenses/by-sa/4.0/"
+  }],
+  "sources": [{
+    "name": "BBC News Scotland Decides Results",
+    "web": "http://www.bbc.co.uk/news/events/scotland-decides/results"
+  },{
+    "name": "Scotland Mid Year Population Estimates",
+    "web": "http://www.gro-scotland.gov.uk/statistics/theme/population/estimates/mid-year/mid-2013/index.html"
+  }],
+  "maintainers": [{
+    "name": "Andy Judson",
+    "email": "andy.judson@gmail.com",
+    "web": "http://www.datahugger.org"
+  }],
+  "resources": [{
+      "name": "vote results",
+      "url": "https://github.com/andyjudson/opendata/tree/master/scogov-indyref/voteresults.json",
+      "format": "json",
+  },{
+      "name": "local authority districts map",
+      "url": "https://github.com/andyjudson/opendata/tree/master/gbrgov_geography/osod_gbr_lad.topojson",
+      "format": "topojson"
+  },{
+      "name": "twitter stream with hashtag indyref",
+      "url": "https://twitter.com/search?f=realtime&q=%23indyref&src=tyah"
+  }]
+}
