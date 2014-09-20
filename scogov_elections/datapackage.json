@@ -23,11 +23,11 @@
   }],
   "resources": [{
       "name": "indyref 2014 election results",
-      "url": "https://github.com/andyjudson/opendata/tree/master/scogov-elections/indyref2014.json",
+      "url": "https://github.com/andyjudson/opendata/tree/master/scogov_elections/indyref2014.json",
       "format": "json",
   },{
       "name": "local authority districts map",
-      "url": "https://github.com/andyjudson/opendata/tree/master/gbrgov_geography/osod_gbr_lad.topojson",
+      "url": "https://github.com/andyjudson/opendata/tree/master/scogov_geography/osod_sco_locauth.topojson",
       "format": "topojson"
   },{
       "name": "twitter stream with hashtag indyref",
