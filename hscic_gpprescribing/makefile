@@ -1,12 +1,23 @@
+tmp:
+	# do stuff...
+	
 dwnl2014:
-	curl -O http://datagov.ic.nhs.uk/presentation/2014_01_January/T201401PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_01_January/T201401ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_01_January/T201401CHEM+SUBS.CSV
-	curl -O http://datagov.ic.nhs.uk/presentation/2014_02_February/T201402PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_02_February/T201402ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_02_February/T201402CHEM+SUBS.CSV
-	curl -O http://datagov.ic.nhs.uk/presentation/2014_03_March/T201403PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_03_March/T201403ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_03_March/T201403CHEM+SUBS.CSV
-	curl -O http://datagov.ic.nhs.uk/presentation/2014_04_April/T201404PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_04_April/T201404ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_04_April/T201404CHEM+SUBS.CSV
-	curl -O http://datagov.ic.nhs.uk/presentation/2014_05_May/T201405PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_05_May/T201405ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_05_May/T201405CHEM+SUBS.CSV
+	# files renamed for consistency
+	curl -O http://datagov.ic.nhs.uk/presentation/2014_12_December/T201412PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_12_December/T201412ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_12_December/T201412CHEM+SUBS.CSV
+	curl -O http://datagov.ic.nhs.uk/presentation/2014_11_November/T201411PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_11_November/T201411ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_11_November/T201411CHEM+SUBS.CSV
+	curl -O http://datagov.ic.nhs.uk/presentation/2014_10_October/T201410PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_10_October/T201410ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_10_October/T201410CHEM+SUBS.CSV
+	curl -O http://datagov.ic.nhs.uk/presentation/2014_09_September/T201409PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_09_September/T201409ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_09_September/T201409CHEM+SUBS.CSV
+	curl -O http://datagov.ic.nhs.uk/presentation/2014_08_August/T201408PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_08_August/T201408ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_08_August/T201408CHEM+SUBS.CSV	
+	curl -O http://datagov.ic.nhs.uk/presentation/2014_07_july/T201407PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_07_july/T201407ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_07_july/T201407CHEM+SUBS.CSV
 	curl -O http://datagov.ic.nhs.uk/presentation/2014_06_June/T201406PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_06_June/T201406ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_06_June/T201406CHEM+SUBS.CSV
+	curl -O http://datagov.ic.nhs.uk/presentation/2014_05_May/T201405PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_05_May/T201405ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_05_May/T201405CHEM+SUBS.CSV
+	curl -O http://datagov.ic.nhs.uk/presentation/2014_04_April/T201404PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_04_April/T201404ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_04_April/T201404CHEM+SUBS.CSV
+	curl -O http://datagov.ic.nhs.uk/presentation/2014_03_March/T201403PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_03_March/T201403ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_03_March/T201403CHEM+SUBS.CSV
+	curl -O http://datagov.ic.nhs.uk/presentation/2014_02_February/T201402PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_02_February/T201402ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_02_February/T201402CHEM+SUBS.CSV
+	curl -O http://datagov.ic.nhs.uk/presentation/2014_01_January/T201401PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_01_January/T201401ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2014_01_January/T201401CHEM+SUBS.CSV
 
 dwnl2013:
+	# files renamed for consistency
 	curl -O http://datagov.ic.nhs.uk/presentation/2013_12_December/T201312PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2013_12_December/T201312ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2013_12_December/T201312CHEM+SUBS.CSV
 	curl -O http://datagov.ic.nhs.uk/presentation/2013_11_November/T201311PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2013_11_November/T201311ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2013_11_November/T201311CHEM+SUBS.CSV
 	curl -O http://datagov.ic.nhs.uk/presentation/2013_10_October/T201310PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2013_10_October/T201310ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2013_10_October/T201310CHEM+SUBS.CSV
@@ -21,6 +32,7 @@ dwnl2013:
 	curl -O http://datagov.ic.nhs.uk/presentation/2013_01_January/T201301PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2013_01_January/T201301ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2013_01_January/T201301CHEM+SUBS.CSV
 
 dwnl2012:
+	# files renamed for consistency
 	curl -O http://datagov.ic.nhs.uk/presentation/2012_12_December/T201212PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2012_12_December/T201212ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2012_12_December/T201212CHEM+SUBS.CSV
 	curl -O http://datagov.ic.nhs.uk/presentation/2012_11_November/T201211PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2012_11_November/T201211ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2012_11_November/T201211CHEM+SUBS.CSV
 	curl -O http://datagov.ic.nhs.uk/presentation/2012_10_October/T201210PDPI+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2012_10_October/T201210ADDR+BNFT.CSV -O http://datagov.ic.nhs.uk/presentation/2012_10_October/T201210CHEM+SUBS.CSV
@@ -34,8 +46,8 @@ dwnl2012:
 	curl -o T201202PDPI+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2012_02_February/T201202PDPI%20BNFT.CSV -o T201202ADDR+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2012_02_February/T201202ADDR%20BNFT.CSV -o T201202CHEM+SUBS.CSV http://datagov.ic.nhs.uk/presentation/2012_02_February/T201202CHEM%20SUBS.CSV
 	curl -o T201201PDPI+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2012_01_January/T201201PDPI%20BNFT.CSV -o T201201ADDR+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2012_01_January/T201201ADDR%20BNFT.CSV -o T201201CHEM+SUBS.CSV http://datagov.ic.nhs.uk/presentation/2012_01_January/T201201CHEM%20SUBS.CSV 
 
-
 dwnl2011:
+	# files renamed for consistency
 	curl -o T201112PDPI+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2011_12_December/T201112PDPI%20BNFT.CSV -o T201112ADDR+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2011_12_December/T201112ADDR%20BNFT.CSV -o T201112CHEM+SUBS.CSV http://datagov.ic.nhs.uk/presentation/2011_12_December/T201112CHEM%20SUBS.CSV
 	curl -o T201111PDPI+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2011_11_November/T201111PDPI%20BNFT.CSV -o T201111ADDR+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2011_11_November/T201111ADDR%20BNFT.CSV -o T201111CHEM+SUBS.CSV http://datagov.ic.nhs.uk/presentation/2011_11_November/T201111CHEM%20SUBS.CSV
 	curl -o T201110PDPI+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2011_10_October/T201110PDPI%20BNFT.CSV -o T201110ADDR+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2011_10_October/T201110ADDR%20BNFT.CSV -o T201110CHEM+SUBS.CSV http://datagov.ic.nhs.uk/presentation/2011_10_October/T201110CHEM%20SUBS.CSV
@@ -49,9 +61,9 @@ dwnl2011:
 	curl -o T201102PDPI+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2011_02_February/T201102PDPI%20BNFT.CSV -o T201102ADDR+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2011_02_February/T201102ADDR%20BNFT.CSV -o T201102CHEM+SUBS.CSV http://datagov.ic.nhs.uk/presentation/2011_02_February/T201102CHEM%20SUBS.CSV
 	curl -o T201101PDPI+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2011_01_January/T201101PDPI%20BNFT.CSV -o T201101ADDR+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2011_01_January/T201101ADDR%20BNFT.CSV -o T201101CHEM+SUBS.CSV http://datagov.ic.nhs.uk/presentation/2011_01_January/T201101CHEM%20SUBS.CSV
 
-
 dwnl2010:
-	curl -o T201012PDPI+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2010_12_December/T201012PDPI%20BNFT.CSV -o T201012ADDR+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2010_12_December/T201012ADDR%20BNFT.CSV-o T201012CHEM+SUBS.CSV http://datagov.ic.nhs.uk/presentation/2010_12_December/T201012CHEM%20SUBS.CSV
+	# files renamed for consistency; data available from august 2010; 
+	curl -o T201012PDPI+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2010_12_December/T201012PDPI%20BNFT.CSV -o T201012ADDR+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2010_12_December/T201012ADDR%20BNFT.CSV -o T201012CHEM+SUBS.CSV http://datagov.ic.nhs.uk/presentation/2010_12_December/T201012CHEM%20SUBS.CSV
 	curl -o T201011PDPI+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2010_11_November/T201011PDPI%20BNFT.CSV -o T201011ADDR+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2010_11_November/T201011ADDR%20BNFT.CSV -o T201011CHEM+SUBS.CSV http://datagov.ic.nhs.uk/presentation/2010_11_November/T201011CHEM%20SUBS.CSV
 	curl -o T201010PDPI+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2010_10_October/T201010PDPI%20BNFT.CSV -o T201010ADDR+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2010_10_October/T201010ADDR%20BNFT.CSV -o T201010CHEM+SUBS.CSV http://datagov.ic.nhs.uk/presentation/2010_10_October/T201010CHEM%20SUBS.CSV
 	curl -o T201009PDPI+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2010_09_September/T201009PDPI%20BNFT.CSV -o T201009ADDR+BNFT.CSV http://datagov.ic.nhs.uk/presentation/2010_09_September/T201009ADDR%20BNFT.CSV -o T201009CHEM+SUBS.CSV http://datagov.ic.nhs.uk/presentation/2010_09_September/T201009CHEM%20SUBS.CSV
