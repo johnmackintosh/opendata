@@ -1,5 +1,5 @@
 # makefile script to download the HSCIC prescribing CSV files released each month, with a 3-month lag, from August 2010. 
-# file pattern: '*PDPI+BNFT.CSV','*ADDR+BNFT.CSV', '*T201501CHEM+SUBS.CSV'
+# file pattern: '*PDPI+BNFT.CSV','*ADDR+BNFT.CSV', '*CHEM+SUBS.CSV'
 # http://www.hscic.gov.uk/prescribing
 # http://www.hscic.gov.uk/searchcatalogue?q=title%3A%22GP+Practice+Prescribing+Presentation%22&area=&size=10&sort=Relevance
 # http://www.gnu.org/software/make/
