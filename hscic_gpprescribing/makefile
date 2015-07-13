@@ -8,7 +8,7 @@
 url = http://datagov.ic.nhs.uk/presentation
 
 # download all (warning: this will take hours and is prone to fail as connections time out)
-dwnlall: dwnl2010 dwnl2012 dwnl2012 dwnl2013 dwnl2014 dwnl2015
+dwnlall: dwnl2010 dwnl2011 dwnl2012 dwnl2013 dwnl2014 dwnl2015
 	
 # download 2015 files (rename for consistency)
 dwnl2015:
